@@ -8,6 +8,7 @@ from models import Generator
 
 app = Flask(__name__)
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 @app.route('/')
 def predict():
@@ -17,7 +18,7 @@ def predict():
     features_g = 64
     fixed_noise = torch.randn(image_size, channels_noise, 1, 1)
     netG = Generator(channels_noise, channels_img, features_g)
-    netG.load_state_dict(torch.load('g.pth'))
+    netG.load_state_dict(torch.load('g.pth', map_location=device))
     fake = netG(fixed_noise)
     newFake = transforms.Compose([
         transforms.Normalize((-1, -1, -1), (2, 2, 2)),
