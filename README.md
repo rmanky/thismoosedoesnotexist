@@ -12,7 +12,7 @@ generate a (pretty poor) image of a moose, using pytorch
 - Refresh the page to get new moose
 
 ## Why is it so bad?
-1. I'm not really sure, my generator seems to fall far behind the descriminator each time I train
+1. I'm not really sure, my generator seems to fall far behind the discriminator each time I train
 2. There isn't a good moose database, the images were *ripped* from Bing (and randomly manipulated with rotation and noise for variation)
 3. This is my first pytorch program
 
