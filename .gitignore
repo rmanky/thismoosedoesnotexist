@@ -1,2 +1,5 @@
 /venv/
 /dataset/
+/.theia/
+/.idea/
+/__pycache__/
