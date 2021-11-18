@@ -1,6 +1,10 @@
 # THISMOOSEDOESNOTEXIST
 generate a (pretty poor) image of a moose, using pytorch
 
+## Examples
+
+<img src="https://i.imgur.com/zt73yIv.png" width="128"/> <img src="https://i.imgur.com/aALKmIC.png" width="128"/> <img src="https://i.imgur.com/zAF2ZIt.png" width="128"/> <img src="https://i.imgur.com/EsfYOik.png" width="128"/> <img src="https://i.imgur.com/71VH7CE.png" width="128"/>
+
 ## Setup
 - Clone this repo
 - Run the following commands:
