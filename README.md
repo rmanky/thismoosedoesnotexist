@@ -7,7 +7,7 @@ generate a (pretty poor) image of a moose, using pytorch
 
 ## Setup
 - Clone this repo
-- Run the following commands:
+- Run the following commands (in a virtualenv):
     - `pip install torchvision`
     - `pip install flask`
     - `export FLASK_APP=server.py`
