@@ -21,5 +21,5 @@ generate a (pretty poor) image of a moose, using pytorch
 3. This is my first pytorch program
 
 ## Why don't you host it?
-1. I don't know how.
-2. The site I used didn't give me enough free space to install pytorch.
+1. I don't know how
+2. The site I used didn't give me enough free space to install pytorch
